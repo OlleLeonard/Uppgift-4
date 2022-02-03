@@ -6,7 +6,7 @@ border-radius: 10px;
 margin: 40px;
 padding: 10px;
 display:flex;
-
+float:left
 }
 
 .box-first{
@@ -19,7 +19,7 @@ display:flex;
     padding: 10px;
     display:flex;
     position:relative;
-    
+
     
 
 }
@@ -55,6 +55,40 @@ display:flex;
     margin: 40px;
     padding: 10px;
     display:flex;
-    
+    float:left
     }
-    
+
+    .container-three {
+        max-width: 700px;
+        min-height: 400px;
+        background-color: rgb(236, 44, 44);
+        border-radius: 10px;
+        margin: 40px;
+        padding: 10px;
+        display:flex;
+        float:left
+        }
+
+
+       .container-four {
+        max-width: 300px;
+        min-height: 300px;
+        background-color: rgb(233, 118, 217);
+        border-radius: 10px;
+        margin: 40px;
+        padding: 10px;
+        display:flex;
+        float:left
+        
+        }
+
+        .container-five {
+            max-width: 700px;
+            min-height: 400px;
+            background-color: coral;
+            border-radius: 10px;
+            margin: 40px;
+            padding: 10px;
+            display:flex;
+            float:left
+            }

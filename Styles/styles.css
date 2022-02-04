@@ -1,55 +1,19 @@
 .container {
-max-width: 700px;
-min-height: 400px;
-background-color: coral;
-border-radius: 10px;
-margin: 40px;
-padding: 10px;
-display:flex;
-float:left
-}
-
-.box-first{
-    
-    max-width: 200px;
-    min-height: 300px;
-    background-color: rgb(156, 80, 255);
+    max-width: 273;
+    min-height: 220px;
+    background-color: coral;
     border-radius: 10px;
-    margin: 20px;
+    margin: 40px;
     padding: 10px;
     display:flex;
-    position:relative;
+    flex-direction: column;
 
-    
-
-}
-
-.box-second{
-    max-width: 200px;
-    min-height: 300px;
-    background-color: rgb(80, 255, 153);
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
-    display:flex;
-    position:relative;
-
-}
-
-.box-third{
- 
-    background-color: rgb(208, 255, 80);
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    display:flex;
-    position:relative;
-
+    float:left
 }
 
 .container-two {
-    max-width: 700px;
-    min-height: 400px;
+    max-width: 273px;
+    min-height: 220px;
     background-color: rgb(233, 118, 217);
     border-radius: 10px;
     margin: 40px;
@@ -92,3 +56,95 @@ float:left
             display:flex;
             float:left
             }
+
+
+
+
+.box-first{
+    
+    
+    background-color: rgb(156, 80, 255);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display:flex;
+    position:relative;
+
+    
+
+}
+
+.box-second{
+
+    background-color: rgb(80, 255, 153);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display:flex;
+    position:relative;
+
+}
+
+.box-third{
+ 
+    background-color: rgb(208, 255, 80);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    position:relative;
+
+}
+
+
+.box-four{
+    
+    
+    background-color: rgb(124, 59, 59);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display:flex;
+
+
+}
+
+.box-five{
+    
+    
+    background-color: rgb(104, 211, 230);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display:flex;
+    position:relative;
+
+}
+
+.layout-one {
+ min-height: 100vh;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: coral;
+}
+
+.box-one{
+ width: 468px;
+ height: 160px;
+ margin-top: 20px;
+ margin-left: 20px;
+ display:inline-flex;
+ justify-content: flex-start;
+ aling-items: flex-end;
+ background-color: cornflowerblue;
+ border-radius: 5px;
+}
+
+.box-one__box {
+ width: 78px;
+ height: 78px;
+ background-color: darkgreen;
+ border-radius: 5px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+}
